@@ -4,6 +4,14 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 /*
+ * SOLUTION IN A NUTSHELL
+ * Two methods are set up.
+ * A method scans substrings the first 26 letters in a string.
+ * A method checks if the above substring contains the 26 letters of the
+ * English alphabet.
+ * A method iterates over the input String, does some checking and returns
+ * the smallest substring
+ * 
  * strings for the sake of testing:
  * 		String input1 = "abcdefghijklmn124345678!@#$%^&*opqrstuvwxyz!*abcdefghijklmn";
 		String input3 = "defghijklmnc6b78!a@#$%^&*opqrs&$#tuvwxyz!*defghijklmn";

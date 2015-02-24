@@ -1,16 +1,12 @@
 package hack_bg;
 
 /*
- * In a programming language of your choice, implement the following function/method:
- * 
- * primesInAnInterval(from, to)
- * 
- * The goal is to return a collection of all the prime numbers in the given interval [from, to]
- * 
- * Make all sorts of checks for the interval - the from parameter has to be less than the to
- * parameter, they both have to be positive integers etc. etc.
- * Design is not important at the moment. You could call the method from the main function,
- * you could export it as a command line tool, you could execute it on a server - your choice
+ * SOLUTION IN A NUTSHELL
+ * The principle of Stratogen's grid is used to find the prime numbers
+ * in a interval from 1 to n where n is the end limit of input interval.
+ * And the start limit is somewhere between 1 and n.
+ * All the program does is generate the primes between 1 and n and cuts
+ * the respective [k,n] respectively.
  */
 
 import java.util.Scanner;

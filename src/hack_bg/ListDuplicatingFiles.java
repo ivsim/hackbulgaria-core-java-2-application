@@ -1,5 +1,14 @@
 package hack_bg;
 
+/*
+ * SOLUTION IN A NUTSHELL
+ * A class FileCompare is created that extends the File class
+ * Specific thing is that it overrides the hashCode(), equals() methods
+ * in such a way that the hashCode() distinguishes is sensitive to
+ * file contents. For the comparison of files FileInputStream class is
+ * used which reads bytes after that bytes are cast into int and compared.
+ */
+
 import java.io.File;
 import java.util.HashSet;
 
